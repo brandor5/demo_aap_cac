@@ -1,0 +1,14 @@
+---
+controller_configuration_projects_async_retries: 60
+controller_configuration_projects_async_delay: 5
+
+controller_projects:
+  - name: bsawyers Demo Project
+    state: "{{ state }}"
+    scm_type: git
+    scm_url: https://github.com/ansible/tower-example.git
+    scm_branch: master
+    scm_clean: true
+    description: Configured by Ansible
+    organization: Default
+...

@@ -1,0 +1,10 @@
+controller_templates:
+  - name: bsawyers Demo Template
+    description: Configured by Ansible
+    state: "{{ state }}"
+    project: bsawyers Demo Project
+    playbook: helloworld.yml
+    execution_environment: Default execution environment
+    instance_groups:
+      - default
+    inventory: bsawyers Demo Inventory

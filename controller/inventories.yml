@@ -1,0 +1,7 @@
+---
+controller_inventories:
+  - name: bsawyers Demo Inventory
+    state: "{{ state }}"
+    description: Configured by Ansible
+    organization: Default
+...
